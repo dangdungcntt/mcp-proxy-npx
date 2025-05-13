@@ -4,14 +4,6 @@ on:
   release:
     types: [published]
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - Dockerfile
-  pull_request:
-    paths:
-      - Dockerfile
 
 jobs:
   ghcr-io:
